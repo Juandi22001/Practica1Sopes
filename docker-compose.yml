@@ -1,0 +1,25 @@
+version: "3"
+services:
+    web:
+        container_name: backgolang
+        build: ./fiber-mongo-api2
+        restart: always
+        ports:
+            - '7000:7000'
+        links:
+            - mongo
+        volumes:
+            - .:/usr/src/app
+    mongo:
+        container_name: mongoadatabase
+        image: mongo
+        ports:
+            - '27017:27017'
+        logging:
+            driver: none
+    react-app:
+        build: ./frontend
+        stdin_open: true
+        ports:
+            - '3000:3000'
+
