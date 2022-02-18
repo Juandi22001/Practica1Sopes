@@ -47,9 +47,10 @@
 
 
 
-## :beginner: Tenemos la opcion de guardar o no el resultado que operamos si en realidad deseamos guardar el resultado  unicamente lo que tenemos que hacer es presionar el boton guardar   <a name="id5"></a>
+## :beginner: Tenemos la opcion de guardar o no el resultado que operamos si en realidad deseamos guardar el resultado  unicamente lo que tenemos que hacer es presionar el boton guardar   y podremos observar al lado derecho recargando la pagina nuestro calculo hecho  <a name="id5"></a>
 
-![5](https://github.com/Juandi22001/Practica1Sopes/blob/main/Manuales/Img/img5.PNG)
+![5](https://github.com/Juandi22001/Practica1Sopes/blob/main/Manuales/Img/img3.PNG)
+# Calculos hechos anteriormente
 
+![5](https://github.com/Juandi22001/Practica1Sopes/blob/main/Manuales/Img/img5.png)
 
-## :beginner: Para correr nuestro proyecto lo unico que se tiene que hacer es correr el comando docker compose up  y solo bastaria de configurar  la ruta  de donde querremos que se guarde la base de datos<a name="id6"></a>
