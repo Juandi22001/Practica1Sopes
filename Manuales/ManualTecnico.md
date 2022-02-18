@@ -43,7 +43,7 @@
 # configuracion del docker compose de mongo
 ![4](https://github.com/Juandi22001/Practica1Sopes/blob/main/Manuales/Img/imagen_mongo.PNG)
 
-## :beginner: Por ultimop para el  frontend se  hizo uso de react   para su configuración al igual que con  golang  se hizo uso de un docker file para subir la imagen y posteriormete subirla a docker hub <a name="id5"></a>
+## :beginner: Por ultimo para el  frontend se  hizo uso de react   para su configuración al igual que con  golang  se hizo uso de un docker file para subir la imagen y posteriormete subirla a docker hub <a name="id5"></a>
 ![5](https://github.com/Juandi22001/Practica1Sopes/blob/main/Manuales/Img/react.png)
 ## docker file react
 ![5](https://github.com/Juandi22001/Practica1Sopes/blob/main/Manuales/Img/react_imagen.PNG)
