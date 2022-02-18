@@ -17,7 +17,7 @@
 :round_pushpin: [Info](#id2)
 :round_pushpin: [Backend](#id3)
 
-:round_pushpin: [Metodo Isin()](#id4)
+:round_pushpin: [Base de datos](#id4)
 :round_pushpin: [Metodo drop_duplicates()](#id5)
 :round_pushpin: [Metodo sum()](#id6)
 :round_pushpin: [Linear Regresion()](#id7)
@@ -34,7 +34,10 @@
 ## :beginner: Para el manejo del backend se hizo uso de  golang  este lenguaje novedoso   y facil de usar. Si fuera un  proyecto normal solo tendriamos que instalar golang   y correr el comando go mod init  : nombre de nuestro proyecto y ya facil , pero como estamos  haciendo uso de la herramienta docker  lo unico que tenemos que hacer para poder correr nuestro programa es configurar nuestro docker file de la siguiente manera. <a name="id3"></a>
 ![3](https://github.com/Juandi22001/Practica1Sopes/blob/main/Manuales/Img/golang.png)
 # docker file de golang
-![3](https://github.com/Juandi22001/Practica1Sopes/blob/main/Manuales/Img/golang.PNG)
+![3](https://github.com/Juandi22001/Practica1Sopes/blob/main/Manuales/Img/imagen_golang.PNG)
+
+
+
 ## :beginner: Este metodo propio de la librerias pandas , es quiza uno de los metodos mas importantes en todo el proyecto gracias a que ese metodo es posible obtener todos los valores posibles del pais o continente del que querremos obtener la informacion y posteriormete hacer el analisis<a name="id4"></a>
 ![4](https://github.com/Juandi22001/Proyecto2OLC2/blob/main/Manuales/img/data3.png)
 
