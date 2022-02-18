@@ -1,10 +1,10 @@
-# ORGANIZACION DE LENGUAJES Y COMPILADORES 2
-## Proyecto 2
+# SISTEMAS OPERATIVOS 1
+## Practica 1
 
 ---
 
 ### Universidad de San Carlos de Guatemala
-### Escuela de vacaciones diciembre 2022
+### Primer Semestre 2022
 ### Juan Diego Alvarado Salguero
 ### 201807335
 ### Manual Tecnico
@@ -14,8 +14,8 @@
 
 # Views
 
-:round_pushpin: [AbrirDataFrame](#id2)
-:round_pushpin: [Parametrizacion de Variables](#id3)
+:round_pushpin: [Info](#id2)
+:round_pushpin: [Backend](#id3)
 
 :round_pushpin: [Metodo Isin()](#id4)
 :round_pushpin: [Metodo drop_duplicates()](#id5)
@@ -28,10 +28,10 @@
 # Reportes
 
 
-## :beginner: De esta manera es como la aplicaion abri un archivo csv  con la ayuda de la libreria pandas , esto es de gran ayuda ya que guarda el archivo csv en la  variable dataframe gracias a ellos es que realizar el analisis es bastante sencillo<a name="id2"></a>
+## :beginner: Docker  Compose es una herramienta para definir y ejecutar aplicaciones Docker de contenedores múltiples. Con Compose, utiliza un archivo YAML para configurar los servicios de su aplicación. Luego, con un solo comando, crea e inicia todos los servicios desde su configuración.11 ene 2021 <a name="id2"></a>
 ![2](https://github.com/Juandi22001/Practica1Sopes/blob/main/Manuales/Img/docker.jpg)
-## :beginner: Para parametrizar las varaibles , la variable var  valga la redundancia es de suma importancia ya que la aplicacion le indica al usuario que  columna utilizar y  la opcion que el usuario se guarda en esa variable y gracias a eso es mucho mas facil ir parametrizando los valores  y asi obtener resultados<a name="id3"></a>
-![3](https://github.com/Juandi22001/Proyecto2OLC2/blob/main/Manuales/img/data2.png)
+## :beginner: Para el manejo del backend se hizo uso de  golang  para instalar este novedoso lenguaje  unicamente tenemos que entrar  a su sitio web <a name="id3"></a>
+![3](https://github.com/Juandi22001/Practica1Sopes/blob/main/Manuales/Img/golang.png)
 
 ## :beginner: Este metodo propio de la librerias pandas , es quiza uno de los metodos mas importantes en todo el proyecto gracias a que ese metodo es posible obtener todos los valores posibles del pais o continente del que querremos obtener la informacion y posteriormete hacer el analisis<a name="id4"></a>
 ![4](https://github.com/Juandi22001/Proyecto2OLC2/blob/main/Manuales/img/data3.png)
