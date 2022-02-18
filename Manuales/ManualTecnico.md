@@ -18,10 +18,8 @@
 :round_pushpin: [Backend](#id3)
 
 :round_pushpin: [Base de datos](#id4)
-:round_pushpin: [Metodo drop_duplicates()](#id5)
-:round_pushpin: [Metodo sum()](#id6)
-:round_pushpin: [Linear Regresion()](#id7)
-:round_pushpin: [PDF](#id8)
+:round_pushpin: [Frontend](#id5)
+
 
 <br>
 <br>
@@ -39,9 +37,9 @@
 
 
 ## :beginner: Para la base de datos  se uso  de la famosa base de datos no relacional  para ello no se croe un docker file en especifico   porque realmente no es algo que se tenga que modificar , por eso es que  toda la imagen y sus conexiones se hicieron en el archivo principal docker compose <a name="id4"></a>
-![4](https://github.com/Juandi22001/Proyecto2OLC2/blob/main/Manuales/img/mongo.png)
+![4](https://github.com/Juandi22001/Proyecto2OLC2/blob/main/Manuales/Img/mongo.png)
 # configuracion del docker compose de mongo
-![4](https://github.com/Juandi22001/Proyecto2OLC2/blob/main/Manuales/img/imagen_mongo.png)
+![4](https://github.com/Juandi22001/Proyecto2OLC2/blob/main/Manuales/Img/imagen_mongo.PNG)
 
 ## :beginner: Este metodo su funcion en el proyecto es simplemente el de evitar valores repetidos , es decir que en el archivo csv que se desee cargar vendran siempre datos repetidos , entonces gracias a este metodo propio de la libreria pandas es posible evitar la data repetida y asi   poder mostrarle al usuario los datos que el desea escoger pero  sin data repetida<a name="id5"></a>
 ![5](https://github.com/Juandi22001/Proyecto2OLC2/blob/main/Manuales/img/data4.png)
