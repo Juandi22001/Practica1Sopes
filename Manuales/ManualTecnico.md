@@ -37,18 +37,10 @@
 
 
 ## :beginner: Para la base de datos  se uso  de la famosa base de datos no relacional  para ello no se croe un docker file en especifico   porque realmente no es algo que se tenga que modificar , por eso es que  toda la imagen y sus conexiones se hicieron en el archivo principal docker compose <a name="id4"></a>
-![4](https://github.com/Juandi22001/Proyecto2OLC2/blob/main/Manuales/Img/mongo.png)
+![4](https://github.com/Juandi22001/Practica1Sopes/blob/main/Manuales/Img/mongo.png)
 # configuracion del docker compose de mongo
 ![4](https://github.com/Juandi22001/Proyecto2OLC2/blob/main/Manuales/Img/imagen_mongo.PNG)
 
 ## :beginner: Este metodo su funcion en el proyecto es simplemente el de evitar valores repetidos , es decir que en el archivo csv que se desee cargar vendran siempre datos repetidos , entonces gracias a este metodo propio de la libreria pandas es posible evitar la data repetida y asi   poder mostrarle al usuario los datos que el desea escoger pero  sin data repetida<a name="id5"></a>
 ![5](https://github.com/Juandi22001/Proyecto2OLC2/blob/main/Manuales/img/data4.png)
 
-## :beginner: El metodo sum , es junto al isin() quiza uno de los 2 metodos propios de la libreria pandas mas importantes en este proyecto , gracias a que basicamente sin esos 2 metodos el proyecto no podria ser funcional , este metodo sum() su funcion es simplemente la de sumar todos los campos de una posicion en un dataframe es decir si se tiene un arreglo en ese dataframe directamente en esa posicion va dar como resultado   la suma de todos los campos de ese dataframe<a name="id6"></a>
-![6](https://github.com/Juandi22001/Proyecto2OLC2/blob/main/Manuales/img/data5.png)
-
-## :beginner: Linear Regresion , es una libreria de sticklearn, que basicamente es la que facilita hacer todas las predicciones, todas las tendecias realizadas en este proyecto<a name="id7"></a>
-![7](https://github.com/Juandi22001/Proyecto2OLC2/blob/main/Manuales/img/data6.png)
-
-## :beginner:  Para la crecion de los reportes,se utiliza siempre una libreria llamada fdpf ,  que  basicamente crea un objeto PDF propio de su libreria para en ese objeto guardar todo lo que consideremos nescesario para poder guardar el reporte en formato PDF y que el usuario pueda ver a detalle los resultados del analisis <a name="id8"></a>
-![8](https://github.com/Juandi22001/Proyecto2OLC2/blob/main/Manuales/img/data7.png)
