@@ -31,16 +31,10 @@
 
 ## :beginner: Docker  Compose es una herramienta para definir y ejecutar aplicaciones Docker de contenedores múltiples. Con Compose, utiliza un archivo YAML para configurar los servicios de su aplicación. Luego, con un solo comando, crea e inicia todos los servicios desde su configuración.11 ene 2021 <a name="id2"></a>
 ![2](https://github.com/Juandi22001/Practica1Sopes/blob/main/Manuales/Img/docker.jpg)
-## :beginner: Docker  Compose es una herramienta para definir y ejecutar aplicaciones Docker de contenedores múltiples. Con Compose, utiliza un archivo YAML para configurar los servicios de su aplicación. Luego, con un solo comando, crea e inicia todos los servicios desde su configuración.11 ene 2021 <a name="id2"></a>
-![2](https://github.com/Juandi22001/Practica1Sopes/blob/main/Manuales/Img/docker.jpg)
-
-![2](https://github.com/Juandi22001/Practica1Sopes/blob/main/Manuales/Img/imagen_golang.PNG)
-
-## :beginner: Para el manejo del backend se hizo uso de  golang  para instalar este novedoso lenguaje  unicamente tenemos que entrar  a su sitio web <a name="id3"></a>
+## :beginner: Para el manejo del backend se hizo uso de  golang  este lenguaje novedoso   y facil de usar. Si fuera un  proyecto normal solo tendriamos que instalar golang   y correr el comando go mod init  : nombre de nuestro proyecto y ya facil , pero como estamos  haciendo uso de la herramienta docker  lo unico que tenemos que hacer para poder correr nuestro programa es configurar nuestro docker file de la siguiente manera. <a name="id3"></a>
 ![3](https://github.com/Juandi22001/Practica1Sopes/blob/main/Manuales/Img/golang.png)
-
-)
-
+# docker file de golang
+![3](https://github.com/Juandi22001/Practica1Sopes/blob/main/Manuales/Img/golang.PNG)
 ## :beginner: Este metodo propio de la librerias pandas , es quiza uno de los metodos mas importantes en todo el proyecto gracias a que ese metodo es posible obtener todos los valores posibles del pais o continente del que querremos obtener la informacion y posteriormete hacer el analisis<a name="id4"></a>
 ![4](https://github.com/Juandi22001/Proyecto2OLC2/blob/main/Manuales/img/data3.png)
 
