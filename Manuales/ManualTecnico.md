@@ -30,7 +30,7 @@
 ## :beginner: Docker  Compose es una herramienta para definir y ejecutar aplicaciones Docker de contenedores múltiples. Con Compose, utiliza un archivo YAML para configurar los servicios de su aplicación. Luego, con un solo comando, crea e inicia todos los servicios desde su configuración.11 ene 2021 en este proyecto hicimos uso de esta fascinante herramienta  para instalarla  lo unico que tenemos que hacer es ir a su direccion https://docs.docker.com/compose/  y dependiendo nuestro sistema operativo  se instalara docker compose <a name="id2"></a>
 ![2](https://github.com/Juandi22001/Practica1Sopes/blob/main/Manuales/Img/docker.jpg)
 ## archivo de docker compose
-![2](https://github.com/Juandi22001/Practica1Sopes/blob/main/Manuales/Img/dockercompose.jpg)
+![2](https://github.com/Juandi22001/Practica1Sopes/blob/main/Manuales/Img/dockercompose.PNG)
 ## :beginner: Para el manejo del backend se hizo uso de  golang  este lenguaje novedoso   y facil de usar. Si fuera un  proyecto normal solo tendriamos que instalar golang   y correr el comando go mod init  : nombre de nuestro proyecto y ya facil , pero como estamos  haciendo uso de la herramienta docker  lo unico que tenemos que hacer para poder correr nuestro programa es configurar nuestro docker file de la siguiente manera. <a name="id3"></a>
 ![3](https://github.com/Juandi22001/Practica1Sopes/blob/main/Manuales/Img/golang.png)
 # docker file de golang
@@ -43,6 +43,7 @@
 # configuracion del docker compose de mongo
 ![4](https://github.com/Juandi22001/Practica1Sopes/blob/main/Manuales/Img/imagen_mongo.PNG)
 
-## :beginner: Por ultimop para el  frontend se  hizo uso de react   para su configuración al igual que con  golang  se hizo uso de un docker file para subir la imagen y posteriormete subirla  con docker hub <a name="id5"></a>
-![5](https://github.com/Juandi22001/Proyecto2OLC2/blob/main/Manuales/img/data4.png)
-
+## :beginner: Por ultimop para el  frontend se  hizo uso de react   para su configuración al igual que con  golang  se hizo uso de un docker file para subir la imagen y posteriormete subirla a docker hub <a name="id5"></a>
+![5](https://github.com/Juandi22001/Practica1Sopes/blob/main/Manuales/Img/react.PNG)
+## docker file react
+![5](https://github.com/Juandi22001/Practica1Sopes/blob/main/Manuales/Img/react_imagen.PNG)
