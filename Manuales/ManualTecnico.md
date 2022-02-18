@@ -34,7 +34,7 @@
 ## :beginner: Docker  Compose es una herramienta para definir y ejecutar aplicaciones Docker de contenedores múltiples. Con Compose, utiliza un archivo YAML para configurar los servicios de su aplicación. Luego, con un solo comando, crea e inicia todos los servicios desde su configuración.11 ene 2021 <a name="id2"></a>
 ![2](https://github.com/Juandi22001/Practica1Sopes/blob/main/Manuales/Img/docker.jpg)
 
-![2](https://github.com/Juandi22001/Practica1Sopes/blob/main/Manuales/Img/imagen_golang.png)
+![2](https://github.com/Juandi22001/Practica1Sopes/blob/main/Manuales/Img/imagen_golang.PNG)
 
 ## :beginner: Para el manejo del backend se hizo uso de  golang  para instalar este novedoso lenguaje  unicamente tenemos que entrar  a su sitio web <a name="id3"></a>
 ![3](https://github.com/Juandi22001/Practica1Sopes/blob/main/Manuales/Img/golang.png)
