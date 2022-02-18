@@ -17,13 +17,12 @@
 :round_pushpin: [Interfaz de Inicio](#id2)
 :round_pushpin: [Escribir operacion](#id3)
 
-:round_pushpin: [Calcular ](#id4)
-:round_pushpin: [Visualizar resultado](#id5)
-:round_pushpin: [Guardar](#id6)
+
+:round_pushpin: [Visualizar resultado](#id4)
+:round_pushpin: [Guardar](#id5)
 
 
 
-:round_pushpin: [Ver Resultados](#id7)
 
 <br>
 <br>
@@ -42,7 +41,7 @@
 
 
 
-## :beginner: Luego podremos visualizar el resultado de la operación ingresada en el display <a name="id4"></a>
+## :beginner: Luego podremos visualizar el resultado de la operación ingresada en el display <a name="id5"></a>
 ![4](https://github.com/Juandi22001/Practica1Sopes/blob/main/Manuales/Img/img4.PNG)
 
 
