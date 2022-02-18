@@ -1,25 +1,48 @@
 version: "3"
 services:
+    db:
+        container_name: dbmongo
+        image: mongo
+        restart: always
+        ports:
+            - "27017:27017"
+        environment:
+            - MONGO_INITDB_ROOT_USERNAME=mongoadmin
+            - MONGO_INITDB_ROOT_PASSWORD=secret
+        networks:
+            - REST-API
+        volumes:
+            - /c/Users/USUARIO/Desktop/1erSEMESTRE2022/SOPES/data:/data/db
+        logging:
+            driver: none
     web:
         container_name: backgolang
-        build: ./fiber-mongo-api2
+        image : jd2200/backend_p1_201807335
         restart: always
         ports:
             - '7000:7000'
         links:
-            - mongo
-        volumes:
-            - .:/usr/src/app
-    mongo:
-        container_name: mongoadatabase
-        image: mongo
-        ports:
-            - '27017:27017'
-        logging:
-            driver: none
+            - db
+        networks:
+            - REST-API
+        environment:
+            MONGO_USERNAME: mongoadmin
+            MONGO_PASSWORD: secret
+            MONGO_HOST: db
+        depends_on:
+            - db
+
     react-app:
-        build: ./frontend
+        image : jd2200/frontend_p1_201807335
         stdin_open: true
         ports:
             - '3000:3000'
+        networks:
+            - REST-API
+networks:
+    REST-API:
+        driver: "bridge"
+        name: "REST-API"
 
+volumes:
+    mongodata:

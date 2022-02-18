@@ -29,6 +29,31 @@ class Calculator extends Component {
                     console.log(response);
 
                     const Operaciones = response.data.data.data
+                    console.log(Operaciones)
+                    if (Operaciones == null) {
+                        const objeto = {
+                            fecha: 'vacia',
+
+                            operando1: 'vacia',
+                            operando2: 'vacia',
+                            resultado: 'vacia',
+                            simbolo: 'vacia'
+                        }
+                        alv.push(objeto)
+                        this.setState({
+
+                            Operaciones: alv
+                        });
+
+                        console.log("nulo")
+
+                    } else {
+                        console.log("no nulo")
+                        this.setState({
+
+                            Operaciones: Operaciones
+                        });
+                    }
 
 
 
@@ -36,10 +61,8 @@ class Calculator extends Component {
 
 
 
-                    this.setState({
 
-                        Operaciones: Operaciones
-                    });
+
 
 
 
@@ -74,8 +97,14 @@ class Calculator extends Component {
                     console.log(response)
                 });
     }
+
+
+
+
+
     componentDidMount() {
-        this.GetOperaciones();
+        this.GetOperaciones()
+
 
     }
 
@@ -155,33 +184,33 @@ class Calculator extends Component {
         prueba = this.state.Operaciones
         console.log(prueba)
 
+        if (!prueba.lenght) {
 
-
-        var Ope = prueba.map((E, i) => {
-            return <tr>
-                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"></link>
-
-
-
-
-
-
-                <td class="table-light">{E.id}</td>
-                <td class="table-light">{E.fecha}</td>
-                <td class="table-light">{E.operando1}</td>
-                <td class="table-light">{E.operando2}</td>
-                <td class="table-light">{E.resultado}</td>
-                <td class="table-light">{E.simbolo}</td>
-
-
-            </tr>
+            var Ope = prueba.map((E, i) => {
+                return <tr>
+                    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"></link>
 
 
 
 
 
-        });
 
+                    <td class="table-light">{E.id}</td>
+                    <td class="table-light">{E.fecha}</td>
+                    <td class="table-light">{E.operando1}</td>
+                    <td class="table-light">{E.operando2}</td>
+                    <td class="table-light">{E.resultado}</td>
+                    <td class="table-light">{E.simbolo}</td>
+
+
+                </tr>
+
+
+
+
+
+            });
+        }
         return (
             <div>
 

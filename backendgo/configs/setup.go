@@ -26,15 +26,16 @@ func ConnectDB() *mongo.Client  {
     if err != nil {
         log.Fatal(err)
     }
-    fmt.Println("Connected to MongoDB")
+    fmt.Println("Conectando con la basse de datos")
     return client
 }
 
-//Client instance
+
 var DB *mongo.Client = ConnectDB()
 
 //getting database collections
 func GetCollection(client *mongo.Client, collectionName string) *mongo.Collection {
-    collection := client.Database("golangAPI").Collection(collectionName)
+    collection := client.Database("BaseSopes1").Collection(collectionName)
     return collection
 }
+
